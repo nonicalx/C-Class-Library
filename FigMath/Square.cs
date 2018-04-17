@@ -26,4 +26,18 @@ namespace FigMath
             return areaOfEqCube;
         }
     }
+
+    public class Rectangle
+    {
+        public double GetArea(double width, double height)
+        {
+            double area = width * height;
+            return area;
+        }
+        public double GetPerimeter(double width, double height)
+        {
+            double periemeter = (2*width)+(2*height);
+            return periemeter;
+        }
+    }
 }
